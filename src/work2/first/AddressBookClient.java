@@ -18,7 +18,7 @@ public class AddressBookClient extends JFrame {
 
     public AddressBookClient() {
         setTitle("个人通讯录");
-        setSize(1200, 800);
+        setSize(800, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BoxLayout(getContentPane(), BoxLayout.Y_AXIS));
 
