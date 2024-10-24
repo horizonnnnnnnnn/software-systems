@@ -59,6 +59,7 @@ public class AddressBookClient extends JFrame {
         });
         updateButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+
                 String name = nameField.getText();
                 String address = addressField.getText();
                 String phone = phoneField.getText();
